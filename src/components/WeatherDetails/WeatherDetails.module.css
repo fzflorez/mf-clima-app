@@ -1,0 +1,40 @@
+.container {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  color: var(--black);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 3rem;
+  }
+}
+
+.container h2 {
+  font-weight: 900;
+}
+
+.container span {
+  font-weight: 600;
+}
+
+.container > p {
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 3rem 0 3rem 0;
+}
+
+.temperatures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.temperatures p {
+  font-weight: 800;
+}
+
+.temperatures span {
+  font-weight: 500;
+}
